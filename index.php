@@ -14,7 +14,7 @@ function adminer_object()
     $plugins = [
         new AdminerDatabaseHide(["mysql", "information_schema", "performance_schema", "sys"]),
         // new AdminerLoginServers([
-            // filter_input(INPUT_SERVER, 'HTTP_HOST') => filter_input(INPUT_SERVER, 'SERVER_NAME')
+        // filter_input(INPUT_SERVER, 'HTTP_HOST') => filter_input(INPUT_SERVER, 'SERVER_NAME')
         // ]),
         new AdminerTablesFilter(),
         new AdminerSimpleMenu(),
